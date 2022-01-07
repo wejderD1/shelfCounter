@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>shelf counter</title>
+</head>
+
+<body>
+  <div id="app">
+    <h1>вычисление растояния между полками</h1>
+    <input type="text" name="height" class="input" placeholder="insert height" v-model="height">
+    <input type="text" name="count" class="input" placeholder="insert count" v-model="count">
+    <div class="container">
+      <button class="btn" @click="getResult">RESULT</button>
+      <h2 v-if="check" class="result">результат: {{ result }}</h2>
+      <h2 v-else class="result danger">Введите данные</h2>
+    </div>
+  </div>
+  <script src="https://unpkg.com/vue@next"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
