@@ -1,3 +1,4 @@
 # shelfCounter
 
-https://wejderd1.github.io/shelfCounter/index.html
+https://wejderd1.github.io/shelfCounter/
+
